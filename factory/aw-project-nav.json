@@ -1,0 +1,9 @@
+{
+	"name": "aw-project-nav",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "77142bbe-229e-4ed1-9b10-e541d8421a5e",
+		"tenantId": "2b29f0af-55ac-43ba-a862-2caff25fc8ae"
+	}
+}
