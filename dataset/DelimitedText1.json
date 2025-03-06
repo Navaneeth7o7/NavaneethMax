@@ -10,7 +10,7 @@
 		"typeProperties": {
 			"location": {
 				"type": "HttpServerLocation",
-				"relativeUrl": "Navaneeth7o7/NavaneethMax/blob/bdbf6642100fe7bc1c443d2f3bd4721406e8e7d7/AdventureWorks_Calendar.csv"
+				"relativeUrl": "Navaneeth7o7/NavaneethMax/blob/main/AdventureWorks_Product_Categories.csv"
 			},
 			"columnDelimiter": ",",
 			"rowDelimiter": "\n",
