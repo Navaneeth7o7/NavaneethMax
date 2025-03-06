@@ -10,7 +10,7 @@
 		"typeProperties": {
 			"location": {
 				"type": "HttpServerLocation",
-				"relativeUrl": "Navaneeth7o7/Sampledata/blob/main/Athletes.csv"
+				"relativeUrl": "Navaneeth7o7/NavaneethMax/blob/main/AdventureWorks_Customers.csv"
 			},
 			"columnDelimiter": ",",
 			"rowDelimiter": "\n",
