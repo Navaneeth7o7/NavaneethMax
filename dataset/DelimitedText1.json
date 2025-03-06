@@ -10,7 +10,7 @@
 		"typeProperties": {
 			"location": {
 				"type": "HttpServerLocation",
-				"relativeUrl": "Navaneeth7o7/NavaneethMax/blob/main/AdventureWorks_Product_Categories.csv"
+				"relativeUrl": "https://github.com/Navaneeth7o7/NavaneethMax/blob/main/AdventureWorks_Product_Categories.csv"
 			},
 			"columnDelimiter": ",",
 			"rowDelimiter": "\n",
