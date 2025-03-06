@@ -17,7 +17,7 @@
 		},
 		"httpawpro_properties_typeProperties_url": {
 			"type": "string",
-			"defaultValue": "https://github.com/Navaneeth7o7/"
+			"defaultValue": "https://github.com"
 		},
 		"containerUri": {
 			"type": "string",
