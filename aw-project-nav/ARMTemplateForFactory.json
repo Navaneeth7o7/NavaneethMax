@@ -17,7 +17,7 @@
 		},
 		"httpawpro_properties_typeProperties_url": {
 			"type": "string",
-			"defaultValue": "https://github.com"
+			"defaultValue": "https://raw.githubusercontent.com"
 		}
 	},
 	"variables": {
@@ -114,12 +114,12 @@
 				"typeProperties": {
 					"location": {
 						"type": "HttpServerLocation",
-						"relativeUrl": "Navaneeth7o7/NavaneethMax/blob/main/AdventureWorks_Customers.csv"
+						"relativeUrl": "Navaneeth7o7/NavaneethMax/refs/heads/main/AdventureWorks_Product_Categories.csv"
 					},
 					"columnDelimiter": ",",
 					"rowDelimiter": "\n",
 					"escapeChar": "\\",
-					"firstRowAsHeader": false,
+					"firstRowAsHeader": true,
 					"quoteChar": null
 				},
 				"schema": []

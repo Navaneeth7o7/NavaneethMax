@@ -12,7 +12,7 @@
 			"value": "https://awstoragedatalakenew1.dfs.core.windows.net/"
 		},
 		"httpawpro_properties_typeProperties_url": {
-			"value": "https://github.com"
+			"value": "https://raw.githubusercontent.com"
 		},
 		"containerUri": {
 			"value": ""
