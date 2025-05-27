@@ -3,7 +3,7 @@
 	"properties": {
 		"activities": [
 			{
-				"name": "ForEachGit",
+				"name": "ForEachGittest",
 				"type": "ForEach",
 				"dependsOn": [
 					{
