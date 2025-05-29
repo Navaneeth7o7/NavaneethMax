@@ -7,10 +7,6 @@
 		},
 		"annotations": [],
 		"type": "SnowflakeV2Table",
-		"schema": [],
-		"typeProperties": {
-			"schema": "PUBLIC",
-			"table": "CUSTOMER"
-		}
+		"schema": []
 	}
 }
