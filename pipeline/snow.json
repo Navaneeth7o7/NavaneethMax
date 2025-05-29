@@ -32,7 +32,152 @@
 							"type": "SnowflakeImportCopyCommand"
 						}
 					},
-					"enableStaging": false
+					"enableStaging": false,
+					"translator": {
+						"type": "TabularTranslator",
+						"mappings": [
+							{
+								"source": {
+									"name": "Customer",
+									"type": "String"
+								},
+								"sink": {
+									"name": "CUSTOMER",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "CustomerKey",
+									"type": "String"
+								},
+								"sink": {
+									"name": "CUSTOMERKEY",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "Prefix",
+									"type": "String"
+								},
+								"sink": {
+									"name": "PREFIX",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "FirstName",
+									"type": "String"
+								},
+								"sink": {
+									"name": "FIRSTNAME",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "LastName",
+									"type": "String"
+								},
+								"sink": {
+									"name": "LASTNAME",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "BirthDate",
+									"type": "String"
+								},
+								"sink": {
+									"name": "BIRTHDATE",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "MaritalStatus",
+									"type": "String"
+								},
+								"sink": {
+									"name": "MARITALSTATUS",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "Gender",
+									"type": "String"
+								},
+								"sink": {
+									"name": "GENDER",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "EmailAddress",
+									"type": "String"
+								},
+								"sink": {
+									"name": "EMAILADDRESS",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "AnnualIncome",
+									"type": "String"
+								},
+								"sink": {
+									"name": "ANNUALINCOME",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "TotalChildren",
+									"type": "String"
+								},
+								"sink": {
+									"name": "TOTALCHILDREN",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "EducationLevel",
+									"type": "String"
+								},
+								"sink": {
+									"name": "EDUCATIONLEVEL",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "Occupation",
+									"type": "String"
+								},
+								"sink": {
+									"name": "OCCUPATION",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "HomeOwner\r",
+									"type": "String"
+								},
+								"sink": {
+									"name": "HOMEOWNER",
+									"type": "String"
+								}
+							}
+						]
+					}
 				},
 				"inputs": [
 					{
