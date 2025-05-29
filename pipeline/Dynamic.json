@@ -36,8 +36,9 @@
 								"source": {
 									"type": "DelimitedTextSource",
 									"storeSettings": {
-										"type": "HttpReadSettings",
-										"requestMethod": "GET"
+										"type": "AzureBlobStorageReadSettings",
+										"recursive": true,
+										"enablePartitionDiscovery": false
 									},
 									"formatSettings": {
 										"type": "DelimitedTextReadSettings"
@@ -66,14 +67,8 @@
 							},
 							"inputs": [
 								{
-									"referenceName": "Ds_git_dynamic",
-									"type": "DatasetReference",
-									"parameters": {
-										"p_rel_url": {
-											"value": "@item().p_rel_url",
-											"type": "Expression"
-										}
-									}
+									"referenceName": "DelimitedText2",
+									"type": "DatasetReference"
 								}
 							],
 							"outputs": [
@@ -169,7 +164,14 @@
 				"inputs": [
 					{
 						"referenceName": "ds_sink_dynamic",
-						"type": "DatasetReference"
+						"type": "DatasetReference",
+						"parameters": {
+							"p_sink_folder": "calendar",
+							"p_filename": {
+								"value": "calendar.csv",
+								"type": "Expression"
+							}
+						}
 					}
 				],
 				"outputs": [
