@@ -6,7 +6,7 @@
 		"type": "AzureBlobStorage",
 		"typeProperties": {
 			"sasUri": "https://awstoragedatalakenew1.blob.core.windows.net/bronze/Customers/Customers.csv",
-			"encryptedCredential": "ew0KICAiVmVyc2lvbiI6ICIyMDE3LTExLTMwIiwNCiAgIlByb3RlY3Rpb25Nb2RlIjogIktleSIsDQogICJTZWNyZXRDb250ZW50VHlwZSI6ICJQbGFpbnRleHQiLA0KICAiQ3JlZGVudGlhbElkIjogIkRBVEFGQUNUT1JZQDY5MzM1NDk2LTUzOEItNEY5Qy1CRkJELUZCMkVFMEZDRkE3Nl83NjcyNTU3My0zNjhlLTQ1MzEtOTkyNC1jZGNlYTEwZmMyYjEiDQp9"
+			"encryptedCredential": "ew0KICAiVmVyc2lvbiI6ICIyMDE3LTExLTMwIiwNCiAgIlByb3RlY3Rpb25Nb2RlIjogIktleSIsDQogICJTZWNyZXRDb250ZW50VHlwZSI6ICJQbGFpbnRleHQiLA0KICAiQ3JlZGVudGlhbElkIjogIkRBVEFGQUNUT1JZQDY5MzM1NDk2LTUzOEItNEY5Qy1CRkJELUZCMkVFMEZDRkE3Nl8zYjdiYjEyMS02YTE3LTQyNzItODVkZC03NWU1ODUyYjE2YjQiDQp9"
 		}
 	}
 }
