@@ -42,7 +42,7 @@
 									"ordinal": 1
 								},
 								"sink": {
-									"name": "CUSTOMER",
+									"name": "CUSTOMERKEY",
 									"type": "String"
 								}
 							},
@@ -52,7 +52,7 @@
 									"ordinal": 2
 								},
 								"sink": {
-									"name": "CUSTOMERKEY",
+									"name": "PREFIX",
 									"type": "String"
 								}
 							},
@@ -62,7 +62,7 @@
 									"ordinal": 3
 								},
 								"sink": {
-									"name": "PREFIX",
+									"name": "FIRSTNAME",
 									"type": "String"
 								}
 							},
@@ -72,7 +72,7 @@
 									"ordinal": 4
 								},
 								"sink": {
-									"name": "FIRSTNAME",
+									"name": "LASTNAME",
 									"type": "String"
 								}
 							},
@@ -82,7 +82,7 @@
 									"ordinal": 5
 								},
 								"sink": {
-									"name": "LASTNAME",
+									"name": "BIRTHDATE",
 									"type": "String"
 								}
 							},
@@ -92,7 +92,7 @@
 									"ordinal": 6
 								},
 								"sink": {
-									"name": "BIRTHDATE",
+									"name": "MARITALSTATUS",
 									"type": "String"
 								}
 							},
@@ -102,7 +102,7 @@
 									"ordinal": 7
 								},
 								"sink": {
-									"name": "MARITALSTATUS",
+									"name": "GENDER",
 									"type": "String"
 								}
 							},
@@ -112,7 +112,7 @@
 									"ordinal": 8
 								},
 								"sink": {
-									"name": "GENDER",
+									"name": "EMAILADDRESS",
 									"type": "String"
 								}
 							},
@@ -122,7 +122,7 @@
 									"ordinal": 9
 								},
 								"sink": {
-									"name": "EMAILADDRESS",
+									"name": "ANNUALINCOME",
 									"type": "String"
 								}
 							},
@@ -132,7 +132,7 @@
 									"ordinal": 10
 								},
 								"sink": {
-									"name": "ANNUALINCOME",
+									"name": "TOTALCHILDREN",
 									"type": "String"
 								}
 							},
@@ -142,7 +142,7 @@
 									"ordinal": 11
 								},
 								"sink": {
-									"name": "TOTALCHILDREN",
+									"name": "EDUCATIONLEVEL",
 									"type": "String"
 								}
 							},
@@ -152,16 +152,6 @@
 									"ordinal": 12
 								},
 								"sink": {
-									"name": "EDUCATIONLEVEL",
-									"type": "String"
-								}
-							},
-							{
-								"source": {
-									"type": "String",
-									"ordinal": 13
-								},
-								"sink": {
 									"name": "OCCUPATION",
 									"type": "String"
 								}
@@ -169,7 +159,7 @@
 							{
 								"source": {
 									"type": "String",
-									"ordinal": 14
+									"ordinal": 13
 								},
 								"sink": {
 									"name": "HOMEOWNER",
