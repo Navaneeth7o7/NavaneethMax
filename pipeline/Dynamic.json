@@ -170,7 +170,7 @@
 						"mappings": [
 							{
 								"source": {
-									"type": "String",
+									"type": "Date",
 									"ordinal": 1
 								},
 								"sink": {
