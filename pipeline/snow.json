@@ -23,7 +23,8 @@
 							"enablePartitionDiscovery": false
 						},
 						"formatSettings": {
-							"type": "DelimitedTextReadSettings"
+							"type": "DelimitedTextReadSettings",
+							"skipLineCount": 1
 						}
 					},
 					"sink": {
@@ -38,8 +39,8 @@
 						"mappings": [
 							{
 								"source": {
-									"type": "String",
-									"ordinal": 1
+									"name": "CustomerKey",
+									"type": "String"
 								},
 								"sink": {
 									"name": "CUSTOMERKEY",
@@ -48,8 +49,8 @@
 							},
 							{
 								"source": {
-									"type": "String",
-									"ordinal": 2
+									"name": "Prefix",
+									"type": "String"
 								},
 								"sink": {
 									"name": "PREFIX",
@@ -58,8 +59,8 @@
 							},
 							{
 								"source": {
-									"type": "String",
-									"ordinal": 3
+									"name": "FirstName",
+									"type": "String"
 								},
 								"sink": {
 									"name": "FIRSTNAME",
@@ -68,8 +69,8 @@
 							},
 							{
 								"source": {
-									"type": "String",
-									"ordinal": 4
+									"name": "LastName",
+									"type": "String"
 								},
 								"sink": {
 									"name": "LASTNAME",
@@ -78,8 +79,8 @@
 							},
 							{
 								"source": {
-									"type": "String",
-									"ordinal": 5
+									"name": "BirthDate",
+									"type": "String"
 								},
 								"sink": {
 									"name": "BIRTHDATE",
@@ -88,8 +89,8 @@
 							},
 							{
 								"source": {
-									"type": "String",
-									"ordinal": 6
+									"name": "MaritalStatus",
+									"type": "String"
 								},
 								"sink": {
 									"name": "MARITALSTATUS",
@@ -98,8 +99,8 @@
 							},
 							{
 								"source": {
-									"type": "String",
-									"ordinal": 7
+									"name": "Gender",
+									"type": "String"
 								},
 								"sink": {
 									"name": "GENDER",
@@ -108,8 +109,8 @@
 							},
 							{
 								"source": {
-									"type": "String",
-									"ordinal": 8
+									"name": "EmailAddress",
+									"type": "String"
 								},
 								"sink": {
 									"name": "EMAILADDRESS",
@@ -118,8 +119,8 @@
 							},
 							{
 								"source": {
-									"type": "String",
-									"ordinal": 9
+									"name": "AnnualIncome",
+									"type": "String"
 								},
 								"sink": {
 									"name": "ANNUALINCOME",
@@ -128,8 +129,8 @@
 							},
 							{
 								"source": {
-									"type": "String",
-									"ordinal": 10
+									"name": "TotalChildren",
+									"type": "String"
 								},
 								"sink": {
 									"name": "TOTALCHILDREN",
@@ -138,8 +139,8 @@
 							},
 							{
 								"source": {
-									"type": "String",
-									"ordinal": 11
+									"name": "EducationLevel",
+									"type": "String"
 								},
 								"sink": {
 									"name": "EDUCATIONLEVEL",
@@ -148,8 +149,8 @@
 							},
 							{
 								"source": {
-									"type": "String",
-									"ordinal": 12
+									"name": "Occupation",
+									"type": "String"
 								},
 								"sink": {
 									"name": "OCCUPATION",
@@ -158,8 +159,8 @@
 							},
 							{
 								"source": {
-									"type": "String",
-									"ordinal": 13
+									"name": "HomeOwner\r",
+									"type": "String"
 								},
 								"sink": {
 									"name": "HOMEOWNER",
